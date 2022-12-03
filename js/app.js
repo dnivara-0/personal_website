@@ -5,6 +5,10 @@ document.addEventListener('keydown', (event) => {
     if (keysPressed['c'] && event.key == 'm') {
         window.location.href = 'maze.html'
     }
+
+    if (keysPressed['c'] && event.key == 's') {
+        window.location.href = 'secretMessage.html'
+    }
 });
 
 document.addEventListener('keyup', (event) => {
